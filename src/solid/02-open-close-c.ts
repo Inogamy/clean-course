@@ -15,5 +15,8 @@ export class HttpClient {
         const data = await resp.json();
 
         return { data, status: resp.status}
+
+
+        
     }
 }
